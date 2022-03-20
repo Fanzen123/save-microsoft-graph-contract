@@ -27,7 +27,7 @@ paths:
       summary: save
       operationId: save
       parameters:
-        - in: path
+        - in: query
           name: userMail
           schema:
             type: string
