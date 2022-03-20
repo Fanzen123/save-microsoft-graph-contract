@@ -1,12 +1,12 @@
 src/main/java/fr/lecko/contract/save_microsoft_graph/api/ApiUtil.java
-src/main/java/fr/lecko/contract/save_microsoft_graph/api/EmailsApi.java
-src/main/java/fr/lecko/contract/save_microsoft_graph/api/EmailsApiController.java
-src/main/java/fr/lecko/contract/save_microsoft_graph/api/EmailsApiDelegate.java
 src/main/java/fr/lecko/contract/save_microsoft_graph/api/InitApi.java
 src/main/java/fr/lecko/contract/save_microsoft_graph/api/InitApiController.java
 src/main/java/fr/lecko/contract/save_microsoft_graph/api/InitApiDelegate.java
+src/main/java/fr/lecko/contract/save_microsoft_graph/api/MailsApi.java
+src/main/java/fr/lecko/contract/save_microsoft_graph/api/MailsApiController.java
+src/main/java/fr/lecko/contract/save_microsoft_graph/api/MailsApiDelegate.java
 src/main/java/fr/lecko/contract/save_microsoft_graph/api/SaveApi.java
 src/main/java/fr/lecko/contract/save_microsoft_graph/api/SaveApiController.java
 src/main/java/fr/lecko/contract/save_microsoft_graph/api/SaveApiDelegate.java
 src/main/java/fr/lecko/contract/save_microsoft_graph/dto/Credentials.java
-src/main/java/fr/lecko/contract/save_microsoft_graph/dto/Email.java
+src/main/java/fr/lecko/contract/save_microsoft_graph/dto/Mail.java

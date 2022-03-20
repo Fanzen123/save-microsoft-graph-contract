@@ -16,7 +16,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.*;
 import java.util.List;
 import java.util.Map;
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-17T21:01:10.124+01:00[Europe/Paris]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-20T13:35:20.160+01:00[Europe/Paris]")
 @Validated
 @Api(value = "save", description = "the save API")
 public interface SaveApi {
@@ -28,6 +28,7 @@ public interface SaveApi {
     /**
      * GET /save : save
      *
+     * @param userMail mail (required)
      * @return successful operation (status code 200)
      */
     @ApiOperation(value = "save", nickname = "save", notes = "", tags={  })
@@ -36,8 +37,8 @@ public interface SaveApi {
     @GetMapping(
         value = "/save"
     )
-    default ResponseEntity<Void> save() {
-        return getDelegate().save();
+    default ResponseEntity<Void> save(@ApiParam(value = "mail",required=true) @PathVariable("userMail") String userMail) {
+        return getDelegate().save(userMail);
     }
 
 }

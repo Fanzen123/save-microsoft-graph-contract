@@ -11,10 +11,10 @@ import javax.validation.Valid;
 import javax.validation.constraints.*;
 
 /**
- * Email
+ * Mail
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-17T21:01:10.124+01:00[Europe/Paris]")
-public class Email   {
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-20T13:35:20.160+01:00[Europe/Paris]")
+public class Mail   {
   @JsonProperty("name")
   private String name;
 
@@ -28,7 +28,7 @@ public class Email   {
   @org.springframework.format.annotation.DateTimeFormat(iso = org.springframework.format.annotation.DateTimeFormat.ISO.DATE_TIME)
   private OffsetDateTime date;
 
-  public Email name(String name) {
+  public Mail name(String name) {
     this.name = name;
     return this;
   }
@@ -49,7 +49,7 @@ public class Email   {
     this.name = name;
   }
 
-  public Email from(String from) {
+  public Mail from(String from) {
     this.from = from;
     return this;
   }
@@ -70,7 +70,7 @@ public class Email   {
     this.from = from;
   }
 
-  public Email content(String content) {
+  public Mail content(String content) {
     this.content = content;
     return this;
   }
@@ -91,7 +91,7 @@ public class Email   {
     this.content = content;
   }
 
-  public Email date(OffsetDateTime date) {
+  public Mail date(OffsetDateTime date) {
     this.date = date;
     return this;
   }
@@ -122,11 +122,11 @@ public class Email   {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    Email email = (Email) o;
-    return Objects.equals(this.name, email.name) &&
-        Objects.equals(this.from, email.from) &&
-        Objects.equals(this.content, email.content) &&
-        Objects.equals(this.date, email.date);
+    Mail mail = (Mail) o;
+    return Objects.equals(this.name, mail.name) &&
+        Objects.equals(this.from, mail.from) &&
+        Objects.equals(this.content, mail.content) &&
+        Objects.equals(this.date, mail.date);
   }
 
   @Override
@@ -137,7 +137,7 @@ public class Email   {
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class Email {\n");
+    sb.append("class Mail {\n");
     
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    from: ").append(toIndentedString(from)).append("\n");

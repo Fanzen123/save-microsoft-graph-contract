@@ -1,11 +1,11 @@
-/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/EmailsApiDelegate.java
-/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/dto/Email.java
 /Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/SaveApiDelegate.java
 /Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/InitApiDelegate.java
 /Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/InitApi.java
-/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/EmailsApiController.java
+/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/MailsApiController.java
+/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/MailsApi.java
+/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/dto/Mail.java
+/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/MailsApiDelegate.java
 /Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/ApiUtil.java
-/Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/EmailsApi.java
 /Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/SaveApiController.java
 /Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/dto/Credentials.java
 /Users/boussaadia/IdeaProjects/save-microsoft-graph-contract/target/generated-sources/openapi/src/main/java/fr/lecko/contract/save_microsoft_graph/api/InitApiController.java

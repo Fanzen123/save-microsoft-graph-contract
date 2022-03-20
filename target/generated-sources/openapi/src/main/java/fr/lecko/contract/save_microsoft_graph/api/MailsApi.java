@@ -5,7 +5,7 @@
  */
 package fr.lecko.contract.save_microsoft_graph.api;
 
-import fr.lecko.contract.save_microsoft_graph.dto.Email;
+import fr.lecko.contract.save_microsoft_graph.dto.Mail;
 import io.swagger.annotations.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -17,29 +17,29 @@ import javax.validation.Valid;
 import javax.validation.constraints.*;
 import java.util.List;
 import java.util.Map;
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-17T21:01:10.124+01:00[Europe/Paris]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-20T13:35:20.160+01:00[Europe/Paris]")
 @Validated
-@Api(value = "emails", description = "the emails API")
-public interface EmailsApi {
+@Api(value = "mails", description = "the mails API")
+public interface MailsApi {
 
-    default EmailsApiDelegate getDelegate() {
-        return new EmailsApiDelegate() {};
+    default MailsApiDelegate getDelegate() {
+        return new MailsApiDelegate() {};
     }
 
     /**
-     * GET /emails : get emails
+     * GET /mails : get mails
      *
      * @return successful operation (status code 200)
      */
-    @ApiOperation(value = "get emails", nickname = "getEmails", notes = "", response = Email.class, responseContainer = "List", tags={  })
+    @ApiOperation(value = "get mails", nickname = "getMails", notes = "", response = Mail.class, responseContainer = "List", tags={  })
     @ApiResponses(value = { 
-        @ApiResponse(code = 200, message = "successful operation", response = Email.class, responseContainer = "List") })
+        @ApiResponse(code = 200, message = "successful operation", response = Mail.class, responseContainer = "List") })
     @GetMapping(
-        value = "/emails",
+        value = "/mails",
         produces = { "application/json" }
     )
-    default ResponseEntity<List<Email>> getEmails() {
-        return getDelegate().getEmails();
+    default ResponseEntity<List<Mail>> getMails() {
+        return getDelegate().getMails();
     }
 
 }

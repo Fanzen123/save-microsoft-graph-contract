@@ -1,6 +1,6 @@
 package fr.lecko.contract.save_microsoft_graph.api;
 
-import fr.lecko.contract.save_microsoft_graph.dto.Email;
+import fr.lecko.contract.save_microsoft_graph.dto.Mail;
 import io.swagger.annotations.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -13,23 +13,23 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * A delegate to be called by the {@link EmailsApiController}}.
+ * A delegate to be called by the {@link MailsApiController}}.
  * Implement this interface with a {@link org.springframework.stereotype.Service} annotated class.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-17T21:01:10.124+01:00[Europe/Paris]")
-public interface EmailsApiDelegate {
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-03-20T13:35:20.160+01:00[Europe/Paris]")
+public interface MailsApiDelegate {
 
     default Optional<NativeWebRequest> getRequest() {
         return Optional.empty();
     }
 
     /**
-     * GET /emails : get emails
+     * GET /mails : get mails
      *
      * @return successful operation (status code 200)
-     * @see EmailsApi#getEmails
+     * @see MailsApi#getMails
      */
-    default ResponseEntity<List<Email>> getEmails() {
+    default ResponseEntity<List<Mail>> getMails() {
         getRequest().ifPresent(request -> {
             for (MediaType mediaType: MediaType.parseMediaTypes(request.getHeader("Accept"))) {
                 if (mediaType.isCompatibleWith(MediaType.valueOf("application/json"))) {

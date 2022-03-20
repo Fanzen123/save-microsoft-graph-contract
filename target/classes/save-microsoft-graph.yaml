@@ -26,13 +26,20 @@ paths:
     get:
       summary: save
       operationId: save
+      parameters:
+        - in: path
+          name: userMail
+          schema:
+            type: string
+          required: true
+          description: mail
       responses:
         '200':
           description: successful operation
-  /emails:
+  /mails:
     get:
-      summary: get emails
-      operationId: getEmails
+      summary: get mails
+      operationId: getMails
       responses:
         '200':
           description: successful operation
@@ -41,10 +48,10 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Email'
+                  $ref: '#/components/schemas/Mail'
 components:
   schemas:
-    Email:
+    Mail:
       type: object
       required:
         - name
